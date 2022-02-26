@@ -1,12 +1,12 @@
 import React from 'react'
 import { Switch, Route, Redirect } from 'react-router-dom'
 
-import Login from 'routes/Login'
+import Panel from 'routes/Panel'
 
 const UnauthenticatedApp = () => (
   <Switch>
-    <Route path='/login' component={Login} />
-    <Redirect to='/login' />
+    <Route path='/' component={Panel} />
+    <Redirect to='/' />
   </Switch>
 )
 
