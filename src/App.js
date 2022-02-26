@@ -8,6 +8,7 @@ import Loader from 'components/Loader'
 import Theme from 'theme'
 
 import 'sanitize.css/sanitize.css'
+import 'react-loading-skeleton/dist/skeleton.css'
 
 const UnauthenticatedApp = lazy(() => import('./UnauthenticatedApp'))
 
@@ -18,6 +19,7 @@ const GlobalStyle = createGlobalStyle`
   margin: 0;
   box-sizing: border-box;
   outline: none;
+  font-family: 'Roboto', sans-serif;
 }
 
 button, a {

@@ -7,7 +7,8 @@ import { styles } from 'theme'
 const Theme = ({ theme = styles, children }) => <ThemeProvider theme={theme}>{children}</ThemeProvider>
 
 Theme.propTypes = {
-  theme: PropTypes.object
+  theme: PropTypes.object,
+  children: PropTypes.node
 }
 
 export default Theme

@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { space, layout, color, flexbox, border, shadow, position } from 'styled-system'
+import { space, layout, color, flexbox, border, shadow, position, typography } from 'styled-system'
 import propTypes from '@styled-system/prop-types'
 
 import { MEDIADESKTOP } from 'helpers'
@@ -14,7 +14,8 @@ const RowComponent = styled.div(
   color,
   border,
   shadow,
-  position
+  position,
+  typography
 )
 
 RowComponent.propTypes = {

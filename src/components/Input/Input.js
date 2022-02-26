@@ -35,7 +35,8 @@ InputComponent.propTypes = {
   register: PropTypes.func,
   placeholder: PropTypes.string,
   error: PropTypes.string,
-  disabled: PropTypes.bool
+  disabled: PropTypes.bool,
+  type: PropTypes.string
 }
 
 export default InputComponent

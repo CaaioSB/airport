@@ -32,7 +32,8 @@ const Container = styled.div`
 `
 
 ContainerComponent.propTypes = {
-  as: PropTypes.element
+  as: PropTypes.element,
+  children: PropTypes.node
 }
 
 export default ContainerComponent

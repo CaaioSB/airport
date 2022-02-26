@@ -5,6 +5,7 @@ export const styles = {
     small: 40
   },
   colors: {
-    black: '#000'
+    black: '#000',
+    yellow: 'rgb(237, 212, 34)'
   }
 }
